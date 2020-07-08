@@ -41,7 +41,8 @@
 }
 
 header .page ul li {
-  display: inline-block;
+  list-style: none;
+  float: left;
   margin: 5px 10px;
 }
 header .page ul li a {
@@ -55,7 +56,7 @@ header .page ul li a {
   display: block;
   background-color: transparent;
   position: relative;
-  transition: all 1s ease;
+  transition: all 0.2s ease;
   line-height: 35px;
 }
 header .page ul li a:hover::before {
@@ -79,11 +80,14 @@ a {
   padding: 0;
   user-select: none;
 }
-
+.wel {
+  color: gray;
+}
 /* home section */
 
 .home {
   min-height: 100vh;
+
   background-image: url("./home\ page\ image.jpg");
   background-size: cover;
   background-position: center;
@@ -240,98 +244,106 @@ a {
 }
 .colormember {
   width: 100%;
-  height: 1000px;
+  height: 200vh;
   background-color: #f5f8fd;
 }
-.membertopic {
-  text-align: center;
+.paramembers {
+  font-size: 50px;
   text-transform: uppercase;
   font-family: "Faster One", cursive;
   font-size: 60px;
 
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-.paramembers {
   border-bottom: 2px solid yellow;
-  display: inline;
+  margin-top: 50px;
+  display: inline-block;
+  margin-left: 500px;
+  margin-bottom: 100px;
 }
-
 .memberimage1 {
   width: 15vw;
-  height: 35vh;
-  margin-top: 0px;
-  margin-left: 100px;
+  height: 30vh;
   border-radius: 50%;
+  margin-left: 140px;
+  margin-bottom: 30px;
   border: 1px solid black;
   float: left;
-  margin-right: 100px;
-  margin-bottom: 60px;
 }
 .rahul {
   font-size: 40px;
-  text-transform: capitalize;
-  border-bottom: 2px solid yellow;
-  display: inline;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 1px solid yellow;
+  display: inline-block;
 }
 .president {
-  margin-top: 20px;
-  font-size: 20px;
-  margin-bottom: 20px;
-  margin-left: 410px;
-  font-family: sans-serif;
+  font-size: 30px;
+  padding-left: 400px;
+  margin-bottom: 10px;
 }
-.memberimage2 {
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
-  margin-left: -300px;
-  border-radius: 50%;
-  border: 1px solid black;
-  float: left;
-}
-.naveen {
-  font-size: 40px;
-  text-transform: capitalize;
-  border-bottom: 2px solid yellow;
-  display: inline;
-}
-.vice-president {
-  margin-top: 20px;
-  font-size: 20px;
-  margin-bottom: 20px;
-  margin-left: 410px;
-  font-family: sans-serif;
-}
-
-.img2para {
-  float: right;
+.img1p {
+  margin-bottom: 40px;
+  display: flex;
   margin-left: 400px;
 }
 .memberimage3 {
-  width: 200px;
-  height: 200px;
-  margin-left: 100px;
+  width: 15vw;
+  height: 30vh;
   border-radius: 50%;
+  border-radius: 50%;
+  margin-left: 140px;
+  margin-bottom: 30px;
   border: 1px solid black;
   float: left;
-  margin-right: 100px;
-  margin-bottom: 60px;
 }
 .thomasshelby {
   font-size: 40px;
-  text-transform: capitalize;
-  border-bottom: 2px solid yellow;
-  display: inline;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 1px solid yellow;
+  display: inline-block;
 }
 .member3 {
-  margin-top: 20px;
-  font-size: 20px;
-  margin-bottom: 20px;
-  margin-left: 410px;
-  font-family: sans-serif;
+  font-size: 30px;
+  padding-left: 400px;
+  margin-bottom: 10px;
 }
 
+.img3para {
+  margin-bottom: 40px;
+  display: flex;
+  margin-left: 400px;
+}
+.memberimage2 {
+  width: 15vw;
+  height: 30vh;
+  border-radius: 50%;
+  border-radius: 50%;
+  margin-left: 140px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  float: left;
+}
+
+.tizz {
+  font-size: 40px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 1px solid yellow;
+  display: inline-block;
+}
+.member2 {
+  font-size: 30px;
+  padding-left: 400px;
+  margin-bottom: 10px;
+}
+.img2para {
+  margin-bottom: 40px;
+  display: flex;
+  margin-left: 400px;
+}
 .memberimage1:hover {
   transition: all 0.2s linear;
   opacity: 0.65;
@@ -474,8 +486,11 @@ a {
   color: grey;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
   .header .row {
+    display: none;
+  }
+  header .page ul li a {
     display: none;
   }
   .naveen {
@@ -535,5 +550,156 @@ a {
   }
   .topbutton {
     margin-left: 470px;
+  }
+  .abouth1 {
+    font-size: 30px;
+    margin-left: -80px;
+  }
+  .aboutpara {
+    margin-left: -80px;
+    font-size: 20px;
+  }
+  .aboutimage {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .motto {
+    font-size: 30px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    text-align: center;
+  }
+  .aboutmotto {
+    clear: both;
+  }
+  .icon {
+    margin-left: 20px;
+  }
+  .topic {
+    font-size: 30px;
+  }
+  .img1 {
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .paramembers {
+    margin: 140px;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .memberimage1 {
+    width: 30%;
+    height: 40%;
+    float: left;
+    margin: 20px;
+  }
+  .rahul {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .president {
+    margin-left: -210px;
+    font-size: 20px;
+    margin-top: -3px;
+  }
+  .img1p {
+    margin-left: 10px;
+  }
+  .memberimage3 {
+    width: 30%;
+    height: 40%;
+    float: left;
+    margin: 20px;
+  }
+  .thomasshelby {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .member3 {
+    margin-left: -210px;
+    font-size: 20px;
+    margin-top: -3px;
+  }
+  .img3para {
+    margin-left: 10px;
+  }
+  .memberimage2 {
+    width: 30%;
+    height: 40%;
+    float: left;
+    margin: 20px;
+    position: relative;
+  }
+  .tizz {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .member2 {
+    margin-left: -210px;
+    font-size: 20px;
+    margin-top: -3px;
+  }
+  .img2para {
+    position: absolute;
+    margin-left: 180px;
+  }
+
+  .partcontactp {
+    font-size: 30px;
+    width: 100%;
+  }
+  .white {
+    width: auto;
+  }
+  .partcontacth4 {
+    margin-top: -70px;
+    font-size: 20px;
+    margin-left: -150px;
+  }
+  .weare {
+    font-size: 15px;
+    margin-left: -150px;
+  }
+  .first1 {
+    font-size: 15px;
+    margin-left: -150px;
+  }
+  .first {
+    margin-left: 10px;
+    padding-left: 0px;
+    padding-left: -590px;
+    border-radius: 10%;
+  }
+  .second2 {
+    font-size: 15px;
+    margin-left: -150px;
+  }
+  .second {
+    margin-left: 45px;
+    padding-left: 0px;
+    padding-left: -590px;
+    border-radius: 10%;
+  }
+  .description {
+    font-size: 15px;
+    margin-left: -150px;
+  }
+  .third {
+    margin-left: -10px;
+    padding-left: -690px;
+    border-radius: 10%;
+    font-size: 10px;
+  }
+  .submit {
+    margin: 0px;
+  }
+  .topbutton {
+    margin: 260px;
+  }
+  .colormember {
+    height: 130vh;
   }
 }
