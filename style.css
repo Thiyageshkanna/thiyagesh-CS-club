@@ -703,3 +703,111 @@ a {
     height: 130vh;
   }
 }
+@media screen and (max-width: 330px), screen and (max-height: 650px) {
+  .homepara {
+    font-size: 13px;
+    margin-left: -20px;
+  }
+  .aboutimage {
+    width: 80vw;
+    height: 30vh;
+    margin-left: -65px;
+  }
+  .motto {
+    margin-left: 45px;
+  }
+  .aboutmotto {
+    margin: 15px;
+  }
+  .email {
+    margin: 15px;
+  }
+  .contact {
+    margin: 15px;
+  }
+  .icon {
+    font-size: 39px;
+  }
+  .img1 {
+    margin-left: 10px;
+  }
+  .colormember {
+    height: 1770px;
+  }
+  .paramembers {
+    margin-left: 60px;
+  }
+  .president {
+    margin-left: -227px;
+  }
+  .memberimage1 {
+    width: 40%;
+    height: 20vh;
+  }
+  .memberimage3 {
+    width: 40%;
+    height: 20vh;
+  }
+  .member3 {
+    font-size: 17px;
+    margin-left: -227px;
+  }
+  .memberimage2 {
+    width: 40%;
+    height: 20vh;
+  }
+  .member2 {
+    font-size: 17px;
+    margin-left: -227px;
+  }
+  .partcontactp {
+    margin-left: 50px;
+  }
+  .weare {
+    margin-left: -150px;
+    font-size: 20px;
+  }
+  .first1 {
+    font-size: 18px;
+    margin-left: -160px;
+  }
+  .first {
+    font-size: 13px;
+  }
+  .second2 {
+    font-size: 18px;
+    margin-left: -160px;
+  }
+  .second {
+    font-size: 13px;
+  }
+  .third {
+    margin-left: -50px;
+    font-size: 9px;
+    padding-right: 23px;
+    padding-bottom: 46px;
+  }
+  .submit {
+    margin-left: -40px;
+  }
+  .partcontact {
+    height: 100vh;
+  }
+  .footer {
+    height: 100vh;
+  }
+  .parafooter {
+    font-size: 40px;
+  }
+  .address {
+    font-size: 17px;
+  }
+  .topbutton {
+    margin-left: 200px;
+    font-size: 38px;
+  }
+  .icon {
+    margin-left: 6px;
+    font-size: 28px;
+  }
+}
