@@ -703,7 +703,7 @@ a {
     height: 130vh;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
   .homepara {
     font-size: 10px;
     margin-left: -20px;
@@ -813,7 +813,7 @@ a {
 }
 @media screen and (max-width: 440px) {
   .colormember {
-    height: 300vh;
+    height: 330vh;
   }
   .first {
     font-size: 10px;
