@@ -812,6 +812,9 @@ a {
   }
 }
 @media screen and (max-width: 440px) {
+  .homepara {
+    font-size: 13px;
+  }
   .colormember {
     height: 220vh;
   }
@@ -825,6 +828,6 @@ a {
     padding-right: 0px;
   }
   .footer {
-    height: 100vh;
+    height: 80vh;
   }
 }
