@@ -811,7 +811,7 @@ a {
     font-size: 28px;
   }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 270px) {
   .colormember {
     height: 250vh;
   }
