@@ -813,7 +813,7 @@ a {
 }
 @media screen and (max-width: 440px) {
   .colormember {
-    height: 300vh;
+    height: 220vh;
   }
   .first {
     font-size: 10px;
@@ -825,6 +825,6 @@ a {
     padding-right: 0px;
   }
   .footer {
-    height: 120vh;
+    height: 100vh;
   }
 }
