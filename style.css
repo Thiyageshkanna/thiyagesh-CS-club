@@ -813,7 +813,7 @@ a {
 }
 @media screen and (max-width: 440px) {
   .colormember {
-    height: 330vh;
+    height: 300vh;
   }
   .first {
     font-size: 10px;
